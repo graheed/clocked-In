@@ -4,6 +4,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
+import java.util.Map;
 
 @Data
 @NoArgsConstructor
@@ -15,6 +16,6 @@ public class Shift {
     private LocalDateTime endTime;
     private Location location;
     private Enum<Course> courseEnum;
-
+    private Map<Integer, User> labTechs;
 
 }
