@@ -1,12 +1,11 @@
 package com.clockedIn.userService;
 
-import com.clockedIn.notificationService.EmailNotificationService;
-import com.clockedIn.userService.observers.Observer;
+import com.clockedIn.userService.patterns.observers.Observer;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
+import org.antlr.v4.runtime.misc.NotNull;
 
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 @EqualsAndHashCode(callSuper = true)
@@ -16,45 +15,51 @@ import java.util.Map;
 @Data
 @ToString(callSuper = true)
 public class LabTech extends User implements Observer {
-    private Map<RequestStatus, List<AbstractRequest>> myRequests;
-    private Map<RequestStatus, List<AbstractRequest>> otherRequests;
-    private EmailNotificationService notificationService;
+    private Map<RequestStatus, HashMap<UUID, AbstractRequest>> myRequests;
+
 
 
     @Override
-    public void updateRequests(AbstractRequest request) {
+    public void updateRequestList(AbstractRequest request) {
         if (request.getStatus() == RequestStatus.PENDING) {
-            otherRequests.get(RequestStatus.PENDING).add(request);
+            otherRequests.get(RequestStatus.PENDING).put(request.getRequestID(), request);
         } else {
-            myRequests.get(request.getStatus()).add(request);
+            myRequests.get(RequestStatus.PENDING).remove(request.getRequestID());
+            myRequests.get(request.getStatus()).put(request.getRequestID(), request);
         }
     }
 
-    public void approveRequest(AbstractRequest request) {
-        request.approve();
-        otherRequests.get(request.getStatus()).add(request);
-        notificationService.addObserver(request.getRequester());
-        notificationService.send(request);
-        notificationService.clearObservers();
-    }
-    public void denyRequest(AbstractRequest request) {
-        request.deny();
-        otherRequests.get(request.getStatus()).add(request);
-        notificationService.addObserver(request.getRequester());
-        notificationService.send(request);
-        notificationService.clearObservers();
-    }
     public AbstractRequest makeShiftChangeRequest() {
-        AbstractRequest request = ShiftSwapRequest.builder().build();
-        request.submit();
-        myRequests.get(request.getStatus()).add(request);
-        return request;
+        Observer testUser = User.builder().userID(UUID.randomUUID()).build();
+        List<Observer> approvers = new ArrayList<>();
+        approvers.add(testUser);
+        AbstractRequest request = ShiftSwapRequest.builder()
+                .requestID(UUID.randomUUID())
+                .requestApprover(approvers)
+                .build();
+        return sendAbstractRequest(request);
     }
 
     public AbstractRequest makeTimeOffRequest() {
-        AbstractRequest request = TimeOffRequest.builder().build();
+        Observer testUser = User.builder().userID(UUID.randomUUID()).build();
+        List<Observer> approvers = new ArrayList<>();
+        approvers.add(testUser);
+        AbstractRequest request = TimeOffRequest.builder()
+                .requestID(UUID.randomUUID())
+                .requestApprover(approvers)
+                .build();
+        return sendAbstractRequest(request);
+    }
+
+    @NotNull
+    private AbstractRequest sendAbstractRequest(AbstractRequest request) {
         request.submit();
-        myRequests.get(request.getStatus()).add(request);
+        for(Observer observer : request.getRequestApprover()) {
+            notificationService.addObserver(observer);
+        }
+        notificationService.send(request);
+        notificationService.clearObservers();
+        myRequests.get(request.getStatus()).put(request.getRequestID(), request);
         return request;
     }
 }

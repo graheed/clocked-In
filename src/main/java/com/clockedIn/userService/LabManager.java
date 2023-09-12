@@ -1,5 +1,10 @@
 package com.clockedIn.userService;
-import lombok.*;
+
+import com.clockedIn.userService.patterns.observers.Observer;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 
 @EqualsAndHashCode(callSuper = true)
@@ -7,10 +12,9 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @SuperBuilder
 @Data
-public class LabManager extends User {
-    private String temp;
+public class LabManager extends User implements Observer {
+    private String test;
 
-    public void sayHello(){
-        System.out.println("HELLO FROM LAB MANAGER ");
-    }
+
+
 }

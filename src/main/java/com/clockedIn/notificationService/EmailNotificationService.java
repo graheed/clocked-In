@@ -1,8 +1,7 @@
 package com.clockedIn.notificationService;
 
 import com.clockedIn.userService.AbstractRequest;
-import com.clockedIn.userService.Request;
-import com.clockedIn.userService.observers.Observer;
+import com.clockedIn.userService.patterns.observers.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +23,7 @@ public class EmailNotificationService implements NotificationService {
     @Override
     public void send(AbstractRequest request) {
         for (Observer observer : observers) {
-            observer.updateRequests(request);
+            observer.updateRequestList(request);
         }
     }
     public void clearObservers() {
