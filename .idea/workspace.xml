@@ -5,36 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c81b0ea-a3c2-4605-af11-093ba1f23d3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lombok.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/patterns/commands/ApproveRequestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/patterns/commands/DenyRequestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/patterns/commands/RequestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/clockedIn/userService/LabManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/clockedIn/userService/LabTechTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/clockedIn/userService/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/EmailNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/EmailNotificationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/AbstractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/AbstractRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/LabManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/LabManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/LabTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/LabTech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/observers/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/patterns/observers/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/repositories/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/notificationService/EmailNotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/notificationService/EmailNotificationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/notificationService/NotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/notificationService/NotificationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilderImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabTech$LabTechBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabTech$LabTechBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabTech$LabTechBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabTech$LabTechBuilderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabTech.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabTech.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Request$RequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/User$UserBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/User$UserBuilderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/observers/Observer.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,8 +98,9 @@
       <recent name="com.clockedIn.userService" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.clockedIn.userService in clocked_in">
-    <configuration name="LabManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.clockedIn.userService.Main" />
       <module name="clocked_in" />
       <extension name="coverage">
         <pattern>
@@ -126,9 +108,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.clockedIn.userService" />
-      <option name="MAIN_CLASS_NAME" value="com.clockedIn.userService.LabManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -210,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.com.clockedIn.userService in clocked_in" />
         <item itemvalue="JUnit.LabManagerTest.denyPendingRequestsTest" />
         <item itemvalue="JUnit.LabManagerTest.approvePendingRequestsTest" />
         <item itemvalue="JUnit.LabManagerTest.updateRequestList" />
-        <item itemvalue="JUnit.LabManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +207,7 @@
       <updated>1694124666030</updated>
       <workItem from="1694124667533" duration="2370000" />
       <workItem from="1694178582421" duration="7314000" />
-      <workItem from="1694207946965" duration="35955000" />
+      <workItem from="1694207946965" duration="39595000" />
     </task>
     <servers />
   </component>
@@ -236,7 +215,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Clocked_In$com_clockedIn_userService_in_clocked_in.ic" NAME="com.clockedIn.userService in clocked_in Coverage Results" MODIFIED="1694554291060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Clocked_In$com_clockedIn_userService_in_clocked_in.ic" NAME="com.clockedIn.userService in clocked_in Coverage Results" MODIFIED="1694558951941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.clockedIn.userService.*</FILTER>
     </SUITE>
   </component>
