@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: '3'
 services:
   database:
@@ -12,3 +13,17 @@ services:
 volumes:
   database-data:
 
+=======
+services:
+  postgres:
+    image: postgres:15.3
+    ports:
+      - "5432:5432"
+    env_file:
+      - clocked-in.env
+    volumes:
+      - clockedin_db_data:/var/lib/postgresql/data
+
+volumes:
+  clockedin_db_data:
+>>>>>>> shift-service
