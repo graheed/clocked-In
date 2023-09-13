@@ -1,14 +1,16 @@
-package com.ClockedIn.shiftservice;
+package com.ClockedIn.requestservice;
+import com.ClockedIn.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import java.time.LocalDateTime;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class TimeOffRequest implements Request{
+public class TimeOffRequest implements Request {
     private User requestor;
     private String reason;
     private LocalDateTime startDate;

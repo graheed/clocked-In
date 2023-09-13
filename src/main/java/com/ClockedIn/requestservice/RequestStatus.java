@@ -1,4 +1,4 @@
-package com.ClockedIn.shiftservice;
+package com.ClockedIn.requestservice;
 
 public enum RequestStatus {
     APPROVED,

@@ -1,7 +1,20 @@
 package com.ClockedIn.shiftservice.repositories;
 
-import com.ClockedIn.shiftservice.Shift;
+import com.ClockedIn.Course;
 
-public interface ShiftRepository extends Repository<Shift, Integer>{
+import java.util.Optional;
+
+public interface ShiftRepository<T, R> {
+
+
+    T save(T entity);
+
+    Optional<T> findById(R id);
+
+    Iterable<T> findAll();
+
+    Iterable<T> findShiftsByCourse(Course course);
+
+    void delete(R id);
 
 }

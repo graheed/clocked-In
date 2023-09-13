@@ -1,4 +1,7 @@
 package com.ClockedIn.shiftservice;
+import com.ClockedIn.Course;
+import com.ClockedIn.Location;
+import com.ClockedIn.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,11 +14,12 @@ import java.util.Map;
 @AllArgsConstructor
 @Builder
 public class Shift {
-    private int shiftId;
+    private Long shiftId;
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     private Location location;
     private Enum<Course> courseEnum;
     private Map<Integer, User> labTechs;
+
 
 }

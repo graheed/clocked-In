@@ -1,4 +1,4 @@
-package com.ClockedIn.shiftservice;
+package com.ClockedIn;
 
 public enum Course {
     COMP1126,
