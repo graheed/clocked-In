@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c81b0ea-a3c2-4605-af11-093ba1f23d3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/EmailNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/EmailNotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/LabManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/LabManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/repositories/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/notificationService/EmailNotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/notificationService/EmailNotificationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilderImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="user-service" />
+                    <option name="lastUsedInstant" value="1694125038" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1694125037" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2V5StVPK6jFAREKHhhk4oQAjmBS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "extract.method.default.visibility": "private",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.clockedIn.userService" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.clockedIn.userService.Main" />
+      <module name="clocked_in" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clockedIn.userService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabManagerTest.approvePendingRequestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clocked_in" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clockedIn.userService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clockedIn.userService" />
+      <option name="MAIN_CLASS_NAME" value="com.clockedIn.userService.LabManagerTest" />
+      <option name="METHOD_NAME" value="approvePendingRequestsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabManagerTest.denyPendingRequestsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clocked_in" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clockedIn.userService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clockedIn.userService" />
+      <option name="MAIN_CLASS_NAME" value="com.clockedIn.userService.LabManagerTest" />
+      <option name="METHOD_NAME" value="denyPendingRequestsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabManagerTest.updateRequestList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clocked_in" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clockedIn.userService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clockedIn.userService" />
+      <option name="MAIN_CLASS_NAME" value="com.clockedIn.userService.LabManagerTest" />
+      <option name="METHOD_NAME" value="updateRequestList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.clockedIn.userService in clocked_in" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="clocked_in" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clockedIn.userService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.clockedIn.userService" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Clocked-In" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Clocked-In" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.com.clockedIn.userService in clocked_in" />
+        <item itemvalue="JUnit.LabManagerTest.denyPendingRequestsTest" />
+        <item itemvalue="JUnit.LabManagerTest.approvePendingRequestsTest" />
+        <item itemvalue="JUnit.LabManagerTest.updateRequestList" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c81b0ea-a3c2-4605-af11-093ba1f23d3f" name="Changes" comment="" />
+      <created>1694124666030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694124666030</updated>
+      <workItem from="1694124667533" duration="2370000" />
+      <workItem from="1694178582421" duration="7314000" />
+      <workItem from="1694207946965" duration="39595000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Clocked_In$com_clockedIn_userService_in_clocked_in.ic" NAME="com.clockedIn.userService in clocked_in Coverage Results" MODIFIED="1694558951941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.clockedIn.userService.*</FILTER>
+    </SUITE>
+  </component>
+</project>
