@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c81b0ea-a3c2-4605-af11-093ba1f23d3f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/EmailNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/EmailNotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/notificationService/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/LabManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/LabManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/repositories/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clockedIn/userService/repositories/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/notificationService/EmailNotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/notificationService/EmailNotificationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilderImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager$LabManagerBuilderImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/LabManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/clockedIn/userService/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="7c81b0ea-a3c2-4605-af11-093ba1f23d3f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +195,7 @@
       <updated>1694124666030</updated>
       <workItem from="1694124667533" duration="2370000" />
       <workItem from="1694178582421" duration="7314000" />
-      <workItem from="1694207946965" duration="39595000" />
+      <workItem from="1694207946965" duration="39873000" />
     </task>
     <servers />
   </component>
