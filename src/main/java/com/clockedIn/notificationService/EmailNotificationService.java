@@ -1,7 +1,7 @@
-package com.clockedIn.notificationService;
+package com.clockedIn.notificationservice;
 
-import com.clockedIn.userService.AbstractRequest;
-import com.clockedIn.userService.patterns.observers.Observer;
+import com.clockedIn.userservice.AbstractRequest;
+import com.clockedIn.userservice.patterns.observers.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

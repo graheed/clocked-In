@@ -2,10 +2,10 @@
  * The {@code NotificationService} interface defines the contract for a notification service that can be used to
  * send notifications and manage observers who are interested in receiving notifications.
  */
-package com.clockedIn.notificationService;
+package com.clockedIn.notificationservice;
 
-import com.clockedIn.userService.AbstractRequest;
-import com.clockedIn.userService.patterns.observers.Observer;
+import com.clockedIn.userservice.AbstractRequest;
+import com.clockedIn.userservice.patterns.observers.Observer;
 
 public interface NotificationService {
     /**
