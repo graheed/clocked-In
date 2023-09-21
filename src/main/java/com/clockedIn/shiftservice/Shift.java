@@ -23,4 +23,5 @@ public class Shift {
     private Map<UUID, Observer> labTechs;
 
 
+
 }

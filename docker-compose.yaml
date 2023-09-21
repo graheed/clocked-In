@@ -2,6 +2,7 @@ version: '3'
 services:
   database:
     image: postgres:latest
+    restart: always
     environment:
       POSTGRES_USER: ${DB_USERNAME:-myuser} 
       POSTGRES_PASSWORD: ${DB_PASSWORD:-mypassword}
